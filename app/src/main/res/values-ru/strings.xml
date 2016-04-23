@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">пердеть</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8829538089345362/9379219714</string>
+    <string name="about">около</string>
+    <string name="version">версия</string>
+    <string name="textoabout">Концепция по Mymma Сото \nПриложение, разработанное Педро Сантанжело \nИконки Иконки-Land \nhttp://www.icons-land.com</string>
+	<string name="pedouno">1</string>
+    <string name="pedodos">2</string>
+    <string name="pedotres">3</string>
+    <string name="pedocuatro">4</string>
+    <string name="pedocinco">5</string>
+    <string name="pedoseis">6</string>
+    <string name="pedosiete">7</string>
+    <string name="pedoocho">8</string>
+    <string name="pedonueve">9</string>
+    <string name="pedodiez">10</string>
+    <string name="pedoonce">11</string>
+    <string name="pedodoce">12</string>
+    <string name="pedotrece">13</string>
+    <string name="pedocatorce">14</string>
+    <string name="pedoquince">15</string>
+    <string name="pedodieciseis">16</string>
+    <string name="pedodiecisiete">17</string>
+    <string name="pedodieciocho">18</string>
+    <string name="pedodiecinueve">19</string>
+    <string name="pedoveinte">20</string>
+    <string name="pedoventiuno">21</string>
+    <string name="pedoventidos">22</string>
+    <string name="pedoventitres">23</string>
+    <string name="pedoventicuatro">24</string>         
+    <string name="Salir">выход</string>
+    <string name="Acerca">О программе ...</string>
+    <string name="Otras_apps">Другие приложения</string>
+    <string name="Rate">оценивать</string>
+    <string name="subject1">Посмотрите на это приложение!</string>
+    <string name="extra_text1">Это приложение является очень смешно! \n Попробуйте! \n https://play.google.com/store/apps/details?id=com.fart.sound</string>
+</resources>

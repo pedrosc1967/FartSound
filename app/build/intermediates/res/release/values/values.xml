@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values/common_colors.xml -->
+    <eat-comment/>
+    <color name="common_action_bar_splitter">#d2d2d2</color>
+    <color name="common_signin_btn_dark_text_default">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_dark_text_focused">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_pressed">@android:color/white</color>
+    <color name="common_signin_btn_default_background">#FFDD4B39</color>
+    <color name="common_signin_btn_light_text_default">#FF737373</color>
+    <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_light_text_focused">#FF737373</color>
+    <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
+    <declare-styleable name="AdsAttrs"><attr format="string" name="adSize"/><attr format="string" name="adSizes"/><attr format="string" name="adUnitId"/></declare-styleable>
+    <declare-styleable name="LoadingImageView"><attr format="enum" name="imageAspectRatioAdjust"><enum name="none" value="0"/><enum name="adjust_width" value="1"/><enum name="adjust_height" value="2"/></attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values/version.xml -->
+    <eat-comment/>
+    <integer name="google_play_services_version">7571000</integer>
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="Acerca">About...</string>
+    <string name="Otras_apps">Other apps</string>
+    <string name="Rate">Rate</string>
+    <string name="Salir">Exit</string>
+    <string name="about">About</string>
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/res/values/admob_strings.xml -->
+    <eat-comment/>
+    <string name="accept">Accept</string>
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_share" translatable="false">Share</string>
+    <string name="app_name">The Fart!</string>
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values/auth_strings.xml -->
+    <eat-comment/>
+    <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
+    <string name="auth_google_play_services_client_google_display_name">Google</string>
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="banner_ad_unit_id">ca-app-pub-8829538089345362/9379219714</string>
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values/common_strings.xml -->
+    <eat-comment/>
+    <string name="common_android_wear_notification_needs_update_text"><ns1:g id="app_name">%1$s</ns1:g> requires an update to the Android Wear app.</string>
+    <string name="common_android_wear_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update the Android Wear app.</string>
+    <string msgid="6006316683626838685" name="common_android_wear_update_title">Update Android Wear</string>
+    <string name="common_google_play_services_api_unavailable_text"><ns1:g id="app_name">%1$s</ns1:g> requires one or more Google Play services that are not currently available. Please contact the developer for assistance.</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Get Google Play services</string>
+    <string msgid="2122112764540849864" name="common_google_play_services_install_text_phone"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your phone.</string>
+    <string msgid="7351599665250191022" name="common_google_play_services_install_text_tablet"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_needs_enabling_title">An application requires Google Play services to be enabled.</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_notification_needs_update_title">An application requires an update for Google Play services.</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_sign_in_failed_text">Error signing in the specified account. Please choose a different account.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Sign in failed</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_text"><ns1:g id="app_name">%1$s</ns1:g> relies on Google Play services, which is not supported by your device. Contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update Google Play services.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating.</string>
+    <string name="common_google_play_services_updating_title">Google Play services are updating</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/res/values/admob_strings.xml -->
+    <eat-comment/>
+    <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
+    <string name="create_calendar_title">Create calendar event</string>
+    <string name="decline">Decline</string>
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="extra_text1">This app is very funny! \n Try it! \n https://play.google.com/store/apps/details?id=com.fart.sound</string>
+    <string name="menu_share" translatable="false">Share</string>
+    <string name="pedocatorce">14</string>
+    <string name="pedocinco">5</string>
+    <string name="pedocuatro">4</string>
+    <string name="pedodiecinueve">19</string>
+    <string name="pedodieciocho">18</string>
+    <string name="pedodieciseis">16</string>
+    <string name="pedodiecisiete">17</string>
+    <string name="pedodiez">10</string>
+    <string name="pedodoce">12</string>
+    <string name="pedodos">2</string>
+    <string name="pedonueve">9</string>
+    <string name="pedoocho">8</string>
+    <string name="pedoonce">11</string>
+    <string name="pedoquince">15</string>
+    <string name="pedoseis">6</string>
+    <string name="pedosiete">7</string>
+    <string name="pedotrece">13</string>
+    <string name="pedotres">3</string>
+    <string name="pedouno">1</string>
+    <string name="pedoveinte">20</string>
+    <string name="pedoventicuatro">24</string>
+    <string name="pedoventidos">22</string>
+    <string name="pedoventitres">23</string>
+    <string name="pedoventiuno">21</string>
+    <string name="send_to" translatable="false">Send to</string>
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/res/values/admob_strings.xml -->
+    <eat-comment/>
+    <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
+    <string name="store_picture_title">Save image</string>
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="subject1">Look at this app!</string>
+    <string name="textoabout">Concept by Mymma Soto \nApplication developed by Pedro Santangelo \nIcons by Icons-Land \nhttp://www.icons-land.com</string>
+    <string name="version">Version</string>
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Presage.Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/res/values/admob_iap_style.xml -->
+    <eat-comment/>
+    <style name="Theme.IAPTheme" parent="android:Theme">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:backgroundDimEnabled">false</item>
+  </style>
+</resources>

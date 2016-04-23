@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/build/intermediates/pre-dexed/debug/classes-6e8f2a1dfd00f4ec213561baa0430fd9b235e538.jar" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-36958e2f9be822acb2739821b5df4a827d76d548.jar" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/build/intermediates/pre-dexed/debug/classes-ee32ef0ea9ead4f7fed808efe70e98b4abac3670.jar" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/build/intermediates/pre-dexed/debug/classes-f7229b6eecf3316a6fa1f99bf1146c22e8990ee7.jar" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/build/intermediates/pre-dexed/debug/classes-3a9e6a8e59a2f1785aa8381ddc674c8bf85d1904.jar" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/libs/presage-lib-1.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="530dc4ed5821c0cdb6af0ca173f6918f5bb20346">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/build/intermediates/pre-dexed/debug/presage-lib-1.6.0-67a1394b642b6d2282b685fa52db04a5f99923a7.jar" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/libs/AppTracker.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8022849c9a32323fdf4f2b41d27877cf208b29d3">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/build/intermediates/pre-dexed/debug/AppTracker-b9630a7d3d50db8ec75027d728e2b278f25d7bff.jar" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/libs/FlurryAgent.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dc458794cf6369ca9d70c9d23b77bbf44d4298a1">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/build/intermediates/pre-dexed/debug/FlurryAgent-9e6bcae73197935f762f9c52b763ee4b8601d9f9.jar" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/Documents/Desarrollo/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/FartSound/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-a93a60d297d336c026f1628405cc417c672326e7.jar" />
+    </item>
+
+</items>

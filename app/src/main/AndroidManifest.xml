@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aabcdata.sound">
+
+    <!-- Esto hace que se renderize mal la barra de tareas  android:anyDensity="false" -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/pedo"
+        android:label="@string/app_name">
+
+        <!-- PRESAGE LIBRARY -->
+        <meta-data android:name="presage_key" android:value="@string/OguryStr"/>
+        <service android:name="io.presage.services.PresageServiceImp"/>
+        <activity
+            android:name="io.presage.activities.PresageActivity"
+            android:theme="@style/Presage.Theme.Transparent">
+
+           <!-- Quitado porque daba error -->
+           <!-- android:theme="@style/Presage.Theme.Transparent"> -->
+            <intent-filter>
+                <action android:name="io.presage.intent.action.LAUNCH_WEBVIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+        <receiver android:name="io.presage.receivers.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="io.presage.receivers.BootReceiver.RESTART_SERVICE"/>
+            </intent-filter>
+        </receiver>
+
+
+
+        <!--This meta-data tag is required to use Google Play Services.-->
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <activity
+            android:name="com.aabcdata.sound.FartSound"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--Include the AdActivity configChanges and theme. -->
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:name="com.apptracker.android.module.AppModuleActivity"
+            android:hardwareAccelerated="false">
+        </activity>
+
+    </application>
+
+</manifest>
