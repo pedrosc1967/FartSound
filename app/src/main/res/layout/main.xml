@@ -2,12 +2,12 @@
 <!-- This file is /res/layout/main.xml -->
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="#FFFFFFFF">
 
+    <!-- This shit is for AdMob
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
         android:layout_width="wrap_content"
@@ -18,13 +18,18 @@
         ads:adUnitId="@string/banner_ad_unit_id">
     </com.google.android.gms.ads.AdView>
 
+    ... end of AdMob Shit -->
 
-    <!--Esto tenía android: android:layout_alignParentBottom="true" layout_width="480dp"  y android:layout_height="75dp" android:layout_width="fill_parent" -->
+
+    <!--Esto tenía android: android:layout_alignParentBottom="true" layout_width="480dp"
+     y android:layout_height="75dp" android:layout_width="fill_parent" -->
     <ScrollView
         android:id="@+id/scroll"
         android:layout_height="wrap_content"
-        android:layout_width="fill_parent"
-        android:layout_above="@+id/adView">
+        android:layout_width="fill_parent">
+        <!-- This was for AdMob
+
+        android:layout_above="@+id/adView">  -->
 
         <TableLayout
             android:orientation="vertical"

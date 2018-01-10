@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.fart.sound"
+    package="com.aabcdata.sound"
     android:versionCode="22"
     android:versionName="2.2" >
 
@@ -36,7 +36,7 @@
         <!-- PRESAGE LIBRARY -->
         <meta-data
             android:name="presage_key"
-            android:value="266614" />
+            android:value="@string/OguryStr" />
 
         <service android:name="io.presage.services.PresageServiceImp" />
 
@@ -67,7 +67,7 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name="com.fart.sound.FartSound"
+            android:name="com.aabcdata.sound.FartSound"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

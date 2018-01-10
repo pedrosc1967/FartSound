@@ -1,8 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 14
-    buildToolsVersion "22.0.1"
+    compileSdkVersion 22
     defaultConfig {
         applicationId "com.aabcdata.sound"
         minSdkVersion 14

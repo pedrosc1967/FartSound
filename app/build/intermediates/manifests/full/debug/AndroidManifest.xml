@@ -30,6 +30,7 @@
 
     <application
         android:allowBackup="false"
+        android:debuggable="true"
         android:icon="@mipmap/pedo"
         android:label="@string/app_name" >
 
